@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>How hail forms</title>
+     <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/4978/4978681.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url("https://www.thoughtco.com/thmb/bMQrMGkuF4V2ra723Wv-o5PKQ_0=/1881x1411/smart/filters:no_upscale()/100427326-56a9e2035f9b58b7d0ffaa75.jpg");
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+        
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">Click to go to Top</a>
+   
+   
+    
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Science<span class="w3-hide-small">Project</span> website</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+      <div id="contentframe" style="position:relative; top: 0px; left: 200px;">
+  <h3 class="w3-center">How clouds form</h3>
+  <p>   Clouds form with ice crystals and water droplets attaching to CCN. CCN stands for cloud condesnation nuclei.
+   The water gets to the CCN from the sun hitting the ground, and warming it up through radiation, but also warms up water, and makes it evaporate. From the ground being warm, through conduction it makes the evaporated water warmer, but, since warmer particles are less dense, they rise which allows the water to get to the CCN. Ice crystals form since higher altitudes equal lower temperature, so if the updrafts get high enough up, it can become an ice crystal.
+    </div>
+    </p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+     
+          <div id="contentframe" style="position:relative; top: -200px; left: -300px;">
+      <img src="data:image/jpeg;base64,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" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="How clouds form" width="500" height="333">
+    </div>
+    </div>
+    
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-black w3-wide">
+        
+    </span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+        
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+
+    </div>
+ 
+
+    
+
+    <div class="w3-col m3">
+      
+    </div>
+                 <div id="contentframe" style="position:relative; top: -400px; left: -600px;">
+
+       <h3 class="w3-center">How Hail forms</h3>
+
+  <p>   Hail forms when the cloud has formed, and the updrafts have brought the cloud high enough so water can condense and freeze. From here, hail forms and grows in convection currents. Once the hail forms, and grows, it will eventually get too heavy or updrafts to support it, so the hail will then start to fall.
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+        
+        <div id="contentframe" style="position:relative; top: -700px; left: -100px;">
+
+<img src="https://www.dtn.com/wp-content/uploads/2019/03/hail_formation_wrong1.jpg" width="300" height="300">
+<!-- Third Parallax Image with Portfolio Text -->
+                    <div id="contentframe" style="position:relative; top: -300px; left: 400px;">
+
+     <h3 class="w3-center">Summary</h3>
+        <p> Hail is able to fall, once clouds form with warm air and water vapor rising high enough for it to stick on to CCN and condense or freeze, then from there ice crystals and water droplets stick together until its too heavy for the updrafts to support, which makes it fall. 
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+     <p> Note: I didn't make any of the images besides
+<div>
+            <div id="contentframe" style="position:relative; top: 150px; left: -500px;">
+
+    <p> Animation of how hail forms embeded below
+    </div>
+
+        <div id="contentframe" style="position:relative; top: 150px; left: -1100px;">
+
+ <iframe src="Science Project.html" height="600" width="1500" title="Iframe Example"></iframe>
+    </div>
+            <div id="contentframe" style="position:relative; top: 1000px; left: -900px;">
+
+<p> Science project is complete :D 
+    Site template by W3
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+
+
+ 
+<!-- Footer -->
+
+
+</body>
+</html>
