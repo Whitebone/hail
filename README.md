@@ -3,3 +3,5 @@ i had some science project that i made like 9123 years ago for like 6th grade th
 also i think the scratch animation was made by my friend maybe? i can't remember that far back 
 
 but like they just told us to convey info so i made a site? 
+
+also i think i took things from w3 but i dont know so im crediting them just in case
